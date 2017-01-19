@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ce08.backaryan.backaryan_ce08.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+
+        <EditText
+            android:id="@+id/minutesEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="2"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:hint="Minutes"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:text=":" />
+
+        <EditText
+            android:id="@+id/secondsEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="2"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:hint="Seconds"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        android:enabled="true"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Timer"
+        android:enabled="false"
+        android:id="@+id/stopButton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+
+</RelativeLayout>

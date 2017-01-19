@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ryankbacka/Desktop/Busted/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/ryankbacka/Desktop/Busted/app/build/intermediates/pre-dexed/release/commons-io-2.4_b2e31a3cf1d95ac048a605a68a64435796ae07aa.jar" />
+    </item>
+
+</items>

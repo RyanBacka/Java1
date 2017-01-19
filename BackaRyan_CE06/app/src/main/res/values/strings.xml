@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BackaRyan_CE06</string>
+
+    <array name="viewArray">
+        <item>Grid View</item>
+        <item>List View</item>
+    </array>
+
+    <array name="adapterArray">
+        <item>Array Adapter</item>
+        <item>Simple Adapter</item>
+        <item>Base Adapter</item>
+    </array>
+</resources>
